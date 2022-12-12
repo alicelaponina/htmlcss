@@ -1084,7 +1084,7 @@
 @media(min-width: 641px) and (max-width: 1200px) {
 
   .header {
-    background-image: url(../images/banner-bg.jpg);
+    background-image: url(../images/banner-bg-tablet.jpg);
     width: 100%;
 	
   }
