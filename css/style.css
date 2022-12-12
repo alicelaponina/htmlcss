@@ -25,12 +25,7 @@
   background-position: center center;
   background-size: cover;
   background-color: #000000;
-  max-width: 100%;
-  position: relative;
-  z-index: 0;
-	object-fit: cover;
-	object-position: bottom;
-	height:300px;
+  
 }
 
 .header:after {
@@ -1084,8 +1079,14 @@
 @media(min-width: 641px) and (max-width: 1200px) {
 
   .header {
-    background-image: url(../images/banner-bg-tablet.jpg);
+    background-image: url(../images/banner-bg.jpg);
     width: 100%;
+	max-width: 100%;
+  position: relative;
+  z-index: 0;
+	object-fit: cover;
+	object-position: bottom;
+	height:300px;
   }
 
   .welcome-title {
