@@ -25,6 +25,12 @@
   background-position: center center;
   background-size: cover;
   background-color: #000000;
+	max-width: 100%;
+  position: relative;
+  z-index: 0;
+	object-fit: cover;
+	object-position: bottom;
+	height:300px;
   
 }
 
